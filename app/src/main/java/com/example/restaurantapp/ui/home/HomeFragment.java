@@ -24,10 +24,11 @@ public class HomeFragment extends Fragment {
     RecyclerView recyclerView;
 
     String s1[],s2[];
-    int images[] = {};
+    int images[] = {R.drawable.sushi1,R.drawable.sushi2,R.drawable.sushi3,R.drawable.sushi4,};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         recyclerView=root.findViewById(R.id.recyclerView);
