@@ -12,4 +12,22 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string-array name="dishes">
+        <item>Makisushi Emperor 8 buc + 1 supa 480g</item>
+        <item>Super sushi 8 buc + 1 supa 420g</item>
+        <item>Makisushi wagyu 8 buc + 1 supa 450g</item>
+        <item>Makisushi Chef Toshi 8 buc + 1 supa 450g</item>
+
+    </string-array>
+
+    <string-array name="ingredients">
+        <item>supa zilei, prime wagyu, arici de mare, trufe negru romaneasca, foie gras tempura, castraveti, avocado puree. Sos soja, wasabi, ghimbir murat</item>
+        <item>supa zilei, creveti tempura, chives, castraveti, busioc prajit, ceapa prajit, doua fer de sosuri</item>
+        <item>supa zilei, prime wagyu, castraveti, chives, ores marinat, sos wagyu</item>
+        <item>supa zilei, eel,casteaveti, mango, foie gras tempoura</item>
+
+    </string-array>
+
+
 </resources>
