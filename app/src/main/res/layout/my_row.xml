@@ -27,7 +27,7 @@
             android:layout_marginLeft="160sp"
             android:layout_marginTop="25sp"
             android:text="Title"
-            android:textSize="24sp"
+            android:textSize="14sp"
             android:textStyle="italic" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_marginLeft="160sp"
             android:layout_marginBottom="30sp"
             android:text="Description"
-            android:textSize="16sp"
+            android:textSize="10sp"
             android:textStyle="bold" />
 
 

@@ -5,13 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.40564102564102567" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.41041666666666665" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.23541666666666666" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.3958333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35786802030456855" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1984712676451094" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.12425740559895831" />
         <entry key="app/src/main/res/layout/activity_menu2.xml" value="0.3958333333333333" />
-        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.234375" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.234375" />
-        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.14463019250253292" />
+        <entry key="app/src/main/res/layout/my_row.xml" value="0.146875" />
         <entry key="app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.40989583333333335" />
         <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.234375" />
       </map>
