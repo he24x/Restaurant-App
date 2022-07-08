@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/button.xml" value="0.4194871794871795" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.4194871794871795" />
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.40564102564102567" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.41041666666666665" />
@@ -10,7 +12,8 @@
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.2572463768115942" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.3958333333333333" />
         <entry key="app/src/main/res/layout/activity_menu2.xml" value="0.3958333333333333" />
-        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.39356884057971014" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.3256102606537029" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.234375" />
         <entry key="app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.40989583333333335" />

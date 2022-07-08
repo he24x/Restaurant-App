@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:src="@drawable/restaurantlogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mailRegister"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Mail"
+        android:padding="16dp"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_marginTop="50dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordRegister"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/ic_baseline_key_24"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordConfirmRegister"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/ic_baseline_key_24"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/register"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
