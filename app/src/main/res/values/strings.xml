@@ -1,9 +1,10 @@
 <resources>
+
     <string name="app_name">restaurantApp</string>
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="you_don_t_have_an_account_register_now">You don\'t have an account? Register now!</string>
+    <string name="you_don_t_have_an_account_register_now">You do not have an account? Register now!</string>
     <string name="forgot_your_password_reset_it_now">Forgot your password? Reset it now!</string>
     <string name="title_activity_menu">blabla</string>
     <string name="nav_open">Open</string>
@@ -16,6 +17,9 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="there_are_3_basic_things_that_s_we_always_keep_in_mind_while_doing_our_business_the_safety_and_freshness_of_the_ingredients_the_environment_that_we_produce_the_food_in_and_not_the_last_the_quality_of_the_final_product_our_mission_is_to_give_you_the_chance_to_discover_a_bit_of_the_asian_culture_through_the_closest_version_of_the_japanese_cuisine_to_achieve_our_goals_those_3_aspects_must_be_always_fulfilled_keeping_the_highest_level_of_hygiene_possible_our_foods_are_conceived_to_reach_the_best_nutritional_value_for_a_healthy_and_strong_body_the_cuisines_prepared_by_our_japanese_chef_s_manage_to_embrace_the_image_flavors_and_style_of_the_original_foods_in_japan_so_please_explore_and_enjoy_the_real_taste_of_the_japanese_foods">There are 3 basic things that’s we always keep in mind while doing our business. The safety and freshness of the ingredients, the environment that we produce the food in and not the last, the quality of the final product. Our mission is to give you the chance to discover a bit of the Asian culture through the closest version of the Japanese cuisine. To achieve our goals those 3 aspects must be always fulfilled. Keeping the highest level of hygiene possible, our foods are conceived to reach the best nutritional value for a healthy and strong body. The cuisines prepared by our Japanese chef’s, manage to embrace the image, flavors and style of the original foods in Japan. So, please explore and enjoy the real taste of the Japanese foods!</string>
     <string name="about">About</string>
+    <string name="menu">Menu</string>
+    <string name="tables">Tables</string>
+    <string name="reservation">Reservation</string>
 
     <string-array name="dishes">
         <item>Makisushi Emperor 8 buc + 1 supa 480g</item>
@@ -34,6 +38,5 @@
         <item>supa zilei, eel,casteaveti, mango, foie gras tempoura</item>
 
     </string-array>
-
 
 </resources>
