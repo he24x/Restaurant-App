@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.notifications.NotificationsFragment">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/infoPhoto"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_info_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toEndOf="@+id/infoPhoto"
+            android:text="@string/about"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/infoPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
         android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        android:text="@string/there_are_3_basic_things_that_s_we_always_keep_in_mind_while_doing_our_business_the_safety_and_freshness_of_the_ingredients_the_environment_that_we_produce_the_food_in_and_not_the_last_the_quality_of_the_final_product_our_mission_is_to_give_you_the_chance_to_discover_a_bit_of_the_asian_culture_through_the_closest_version_of_the_japanese_cuisine_to_achieve_our_goals_those_3_aspects_must_be_always_fulfilled_keeping_the_highest_level_of_hygiene_possible_our_foods_are_conceived_to_reach_the_best_nutritional_value_for_a_healthy_and_strong_body_the_cuisines_prepared_by_our_japanese_chef_s_manage_to_embrace_the_image_flavors_and_style_of_the_original_foods_in_japan_so_please_explore_and_enjoy_the_real_taste_of_the_japanese_foods"/>
+</LinearLayout>
