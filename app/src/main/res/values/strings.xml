@@ -20,13 +20,15 @@
     <string name="menu">Menu</string>
     <string name="tables">Tables</string>
     <string name="reservation">Reservation</string>
+    <string name="details">Details</string>
+    <string name="title">Title</string>
 
     <string-array name="dishes">
-        <item>Makisushi Emperor 8 buc + 1 supa 480g</item>
-        <item>Super sushi 8 buc + 1 supa 420g</item>
-        <item>Makisushi wagyu 8 buc + 1 supa 450g</item>
-        <item>Makisushi Chef Toshi 8 buc + 1 supa 450g</item>
-        <item>Makisushi Chef Toshi 8 buc + 1 supa 450g</item>
+        <item>Makisushi Emperor 8 buc \n 1 supa \n 480g</item>
+        <item>Super sushi 8 buc \n 1 supa \n 420g</item>
+        <item>Makisushi wagyu 8 buc \n 1 supa \n 450g</item>
+        <item>Makisushi Chef Toshi 8 buc \n 1 supa \n 450g</item>
+        <item>Makisushi Chef Toshi 8 buc \n 1 supa \n 450g</item>
 
     </string-array>
 

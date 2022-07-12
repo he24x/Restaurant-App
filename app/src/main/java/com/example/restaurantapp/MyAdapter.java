@@ -39,7 +39,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.myText1.setText(data1[position]);
-        holder.myText2.setText(data2[position]);
         holder.myImage.setImageResource(images[position]);
     }
 
@@ -57,7 +56,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             myText1 = itemView.findViewById(R.id.myText1);
-            myText2 = itemView.findViewById(R.id.myText2);
             myImage = itemView.findViewById(R.id.myImageView);
             cardView = itemView.findViewById(R.id.cardView);
         }
