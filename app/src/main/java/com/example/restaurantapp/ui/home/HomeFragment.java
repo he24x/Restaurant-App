@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
     RecyclerView recyclerView;
 
     String s1[],s2[];
-    int images[] = {R.drawable.sushi1,R.drawable.sushi2,R.drawable.sushi3,R.drawable.sushi4,R.drawable.sushi4};
+    int images[] = {R.drawable.sushi1,R.drawable.sushi2,R.drawable.sushi3,R.drawable.sushi4,R.drawable.sushi5,R.drawable.sushi6,R.drawable.sushi7,R.drawable.sushi8,R.drawable.sushi9,R.drawable.sushi10,R.drawable.sushi11};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
