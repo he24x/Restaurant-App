@@ -12,8 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.restaurantapp.ui.home.HomeFragment;
-
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
 
@@ -40,6 +38,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.myText1.setText(data1[position]);
         holder.myImage.setImageResource(images[position]);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(v.getContext(), DetailsActivity.class);
+                intent.putExtra("images",images[position]);
+                intent.putExtra("ingredients",data2[position]);
+                v.getContext().startActivity(intent);
+
+            }
+        });
+
     }
 
 
@@ -50,7 +60,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         CardView cardView;
-        TextView myText1,myText2;
+        TextView myText1;
         ImageView myImage;
 
         public MyViewHolder(@NonNull View itemView) {
