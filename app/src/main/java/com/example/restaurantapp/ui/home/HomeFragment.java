@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     RecyclerView recyclerView;
 
-    String s1[],s2[];
+    String s1[],s2[],s3[];
     int images[] = {R.drawable.sushi1,R.drawable.sushi2,R.drawable.sushi3,R.drawable.sushi4,R.drawable.sushi5,R.drawable.sushi6,R.drawable.sushi7,R.drawable.sushi8,R.drawable.sushi9,R.drawable.sushi10,R.drawable.sushi11};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -35,8 +35,9 @@ public class HomeFragment extends Fragment {
 
         s1 = getResources().getStringArray(R.array.dishes);
         s2 = getResources().getStringArray(R.array.ingredients);
+        s3 = getResources().getStringArray(R.array.price);
 
-        MyAdapter myAdapter = new MyAdapter(getContext(), s1, s2, images);
+        MyAdapter myAdapter = new MyAdapter(getContext(), s1, s2, s3 , images);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 

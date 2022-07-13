@@ -52,7 +52,21 @@
         <item>supa zilei, somon, avocado, orez, sos de soia, wasabi, gimbir, alge, supa zilei-530g</item>
         <item>supa zilei, creveti, somon, orez, sos de soia, wasabi, gimbir, alge, supa zilei-530g</item>
 
+    </string-array>
 
+    <string-array name="price">
+
+        <item>179,00 lei</item>
+        <item>67,00 lei</item>
+        <item>108,00 lei</item>
+        <item>72,00 lei</item>
+        <item>83,00 lei</item>
+        <item>83,00 lei</item>
+        <item>151,00 lei</item>
+        <item>75,00 lei</item>
+        <item>58,00 lei</item>
+        <item>49,00 lei</item>
+        <item>71,00 lei</item>
 
     </string-array>
 
