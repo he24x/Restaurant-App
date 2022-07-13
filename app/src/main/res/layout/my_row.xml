@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#252525"
+    android:background="#0D4887"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_margin="12dp"
         app:cardCornerRadius="20dp"
-        app:cardBackgroundColor="#9E9E9E"
+        app:cardBackgroundColor="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
