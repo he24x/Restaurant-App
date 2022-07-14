@@ -11,6 +11,7 @@
         android:id="@+id/myImageView2"
         android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
+        android:scaleType="centerCrop"
         android:layout_height="300dp"
         app:srcCompat="@drawable/ic_launcher_background" />
 
