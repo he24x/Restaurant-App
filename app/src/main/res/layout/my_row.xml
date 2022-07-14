@@ -9,6 +9,7 @@
     android:layout_marginRight="12sp"
     android:orientation="vertical">
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_margin="12dp"
@@ -40,6 +41,8 @@
             android:text="@string/title"
             android:textColor="#303030"
             android:textSize="16sp"/>
+
+
 
 
 
