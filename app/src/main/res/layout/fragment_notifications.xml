@@ -110,6 +110,104 @@
 
     </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:background="@color/black"
+                android:id="@+id/cardView2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:id="@+id/title2"
+                        android:layout_margin="12dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/welcome"
+                        />
+                    <TextView
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:id="@+id/details2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/one_of_the_healthiest_and_most_special_cuisines_in_the_world_is_japanese_cuisine_so_delicate_and_refined_it_never_ceases_to_amaze_and_delight_with_the_flavor_and_exclusivity_of_its_dishes_our_chef_shoji_toshihisa_with_over_10_years_of_experience_in_restaurants_in_japan_prepares_daily_sushi_makizushi_chicken_teriaki_oyakodon_samurai_rice_ramen_soup_or_dishes_that_are_not_on_the_menu_but_that_you_have_tasted_in_japan_the_order_sushi_one_thing_well_known_by_lovers_of_japanese_cuisine_is_that_sushi_with_its_basic_ingredients_fish_and_rice_is_a_good_source_of_protein_carbohydrates_vitamins_and_minerals_the_low_fat_content_and_high_nutrient_intake_offered_by_this_dish_is_proof_longevity_of_the_inhabitants_of_the_land_of_the_rising_sun_to_prepare_this_wonderful_specialty_chefs_need_a_practice_of_over_2_years_starting_with_the_way_the_rice_is_washed_seasoned_and_cooked_all_complete_with_fish_selection_portioning_and_preparation_sushi_the_simple_but_at_the_same_time_sophisticated_preparation_of_the_japanese_has_been_conquering_the_whole_world_for_many_years_ramen_soup_with_millions_of_locations_in_japan_where_this_dish_can_be_served_ramen_soup_remains_in_the_top_of_the_preferences_of_japanese_who_are_not_shy_to_wait_in_line_in_front_of_a_ramen_shop_to_enjoy_a_good_port_of_noddles_with_soup_the_two_main_ingredients_are_pasta_noddles_preferably_fresh_and_soup_of_pork_chicken_or_seafood_seasoned_with_one_of_the_three_flavors_shyoyu_soy_sauce_miso_or_shio_salt_we_prepare_pasta_every_day_so_we_can_offer_you_the_ideal_ramen_with_chicken_soup_that_retains_its_intense_but_at_the_same_time_delicate_taste_along_with_cha_shu_slices_of_pork_egg_soy_sauce_and_high_secret_ingredients_the_time_required_to_prepare_this_soup_can_reach_up_to_10_hours_depending_on_the_type_of_meat_chosen_and_collagen_is_abundant_in_this_preparation_rice_with_meat_for_those_who_are_wondering_how_the_japanese_eat_pork_beef_or_chicken_we_offer_some_representative_dishes_for_japanese_cuisine_meat_sauces_are_based_on_shyoyu_soy_sauce_continuing_with_ginger_nutmeg_saffron_rosemary_garlic_onion_and_many_others_giving_the_final_dish_a_special_flavor_unheard_of_in_other_kitchens_we_are_waiting_for_you_to_discover_the_original_taste_of_japanese_gastronomy_now_closer_than_ever_to_the_constant_public"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="12dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:background="@color/black"
+                android:id="@+id/cardView3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:id="@+id/title3"
+                        android:layout_margin="12dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contact"
+                        />
+                    <TextView
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:id="@+id/details3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Program: Monday-Sunday 11:30-23:30 \nEmail: tokyo.rikiya@yahoo.com\nPhone number: 0241 666 444\n"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="12dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
     </LinearLayout>
+
 
 </ScrollView>
