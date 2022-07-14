@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestaurantApp">
         <activity
+            android:name=".cartActivity"
+            android:exported="false" />
+        <activity
             android:name=".confirmationActivity"
             android:exported="false" />
         <activity
