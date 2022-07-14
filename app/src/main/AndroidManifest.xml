@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RestaurantApp">
         <activity
+            android:name=".confirmationActivity"
+            android:exported="false" />
+        <activity
             android:name=".registerActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
             android:exported="false"
-            android:label="Reservations"/>
+            android:label="Reservations" />
         <activity
             android:name=".MainActivity2"
             android:exported="false"

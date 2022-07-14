@@ -12,48 +12,107 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nameText"
-        android:layout_width="200dp"
-        android:layout_gravity="top"
-        android:layout_height="wrap_content"
-        android:hint="@string/name"
-        android:padding="16dp"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
-        android:layout_marginTop="50dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameText"
+            android:layout_width="200dp"
+            android:layout_gravity="top"
             android:layout_height="wrap_content"
-            />
+            android:hint="@string/name"
+            android:padding="16dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:layout_marginTop="12dp">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/surnameText"
-        android:layout_width="200dp"
-        android:layout_gravity="top"
-        android:layout_height="wrap_content"
-        android:hint="@string/surname"
-        android:padding="16dp"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
-        android:layout_marginTop="50dp">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/surnameText"
+            android:layout_width="200dp"
+            android:layout_gravity="top"
             android:layout_height="wrap_content"
-            />
+            android:hint="@string/surname"
+            android:padding="16dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:layout_marginTop="12dp">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/peopleNumber"
+            android:layout_width="250dp"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_of_people"
+            android:padding="16dp"
+            app:startIconDrawable="@drawable/ic_baseline_numbers_24">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tableNumber"
+            android:layout_width="150dp"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:hint="@string/table"
+            android:padding="16dp"
+            app:startIconDrawable="@drawable/ic_baseline_numbers_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneNumber"
+        android:layout_width="250dp"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:padding="16dp"
+        app:startIconDrawable="@drawable/ic_baseline_local_phone_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_gravity="center|bottom"
+        android:text="@string/book_a_table_now"/>
 
 </LinearLayout>

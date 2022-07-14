@@ -25,6 +25,10 @@
     <string name="name">Name</string>
     <string name="surname">Surname</string>
     <string name="our_food">Our food</string>
+    <string name="table">Table</string>
+    <string name="number_of_people">Number of people</string>
+    <string name="book_a_table_now">Book a table now!</string>
+    <string name="phone_number">Phone number</string>
 
     <string-array name="dishes">
         <item>Makisushi Emperor 8 buc \n 480g</item>
