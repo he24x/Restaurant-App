@@ -15,6 +15,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.restaurantapp.MainActivity2;
+import com.example.restaurantapp.MainActivity3;
 import com.example.restaurantapp.R;
 import com.example.restaurantapp.databinding.FragmentDashboardBinding;
 
@@ -41,7 +42,7 @@ public class DashboardFragment extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +50,7 @@ public class DashboardFragment extends Fragment {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -57,7 +58,7 @@ public class DashboardFragment extends Fragment {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -65,7 +66,7 @@ public class DashboardFragment extends Fragment {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -73,7 +74,7 @@ public class DashboardFragment extends Fragment {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -81,7 +82,7 @@ public class DashboardFragment extends Fragment {
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -89,7 +90,7 @@ public class DashboardFragment extends Fragment {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
@@ -97,7 +98,7 @@ public class DashboardFragment extends Fragment {
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), MainActivity2.class);
+                Intent intent = new Intent(getContext(), MainActivity3.class);
                 startActivity(intent);
             }
         });
