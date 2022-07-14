@@ -34,7 +34,6 @@ public class NotificationsFragment extends Fragment {
 
         binding = FragmentNotificationsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
         title=root.findViewById(R.id.title);
         name=root.findViewById(R.id.name);
         chef=root.findViewById(R.id.image);

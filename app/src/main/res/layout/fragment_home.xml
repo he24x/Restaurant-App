@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<<<< Temporary merge branch 1
+    android:background="@color/black"
+=========
     android:background="#BEFFFFFF"
-    android:layout_marginBottom="20dp"
-    android:layout_marginTop="20dp"
+>>>>>>>>> Temporary merge branch 2
     tools:context=".ui.home.HomeFragment">
 
     <androidx.recyclerview.widget.RecyclerView

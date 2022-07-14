@@ -11,103 +11,103 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_marginTop="40dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/infoPhoto"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_info_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:padding="20dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toEndOf="@+id/infoPhoto"
+            android:text="@string/about"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/infoPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/infoPhoto"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_baseline_info_24"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/textView"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:background="@color/black"
+            android:id="@+id/cardView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:id="@+id/layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:layout_marginEnd="29dp"
-                android:layout_toEndOf="@+id/infoPhoto"
-                android:text="@string/about"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/infoPhoto"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                app:cardCornerRadius="20dp"
-                android:background="@color/black"
-                android:id="@+id/cardView"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp">
-
-                <LinearLayout
-                    android:id="@+id/layout"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/title"
+                    android:layout_margin="12dp"
+                    android:textSize="16sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:animateLayoutChanges="true">
-                    <TextView
-                        android:textColor="@color/black"
-                        android:id="@+id/title"
-                        android:layout_margin="12dp"
-                        android:textSize="16sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/our_food"
-                        />
-                    <TextView
-                        android:textColor="@color/black"
-                        android:visibility="gone"
-                        android:id="@+id/details"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/there_are_3_basic_things_that_s_we_always_keep_in_mind_while_doing_our_business_the_safety_and_freshness_of_the_ingredients_the_environment_that_we_produce_the_food_in_and_not_the_last_the_quality_of_the_final_product_our_mission_is_to_give_you_the_chance_to_discover_a_bit_of_the_asian_culture_through_the_closest_version_of_the_japanese_cuisine_to_achieve_our_goals_those_3_aspects_must_be_always_fulfilled_keeping_the_highest_level_of_hygiene_possible_our_foods_are_conceived_to_reach_the_best_nutritional_value_for_a_healthy_and_strong_body_the_cuisines_prepared_by_our_japanese_chef_s_manage_to_embrace_the_image_flavors_and_style_of_the_original_foods_in_japan_so_please_explore_and_enjoy_the_real_taste_of_the_japanese_foods"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="12dp"
-                        android:textSize="14dp"
-                        />
-                    <ImageView
-                        android:layout_marginStart="20dp"
-                        android:id="@+id/image"
-                        android:layout_width="70dp"
-                        android:visibility="gone"
-                        android:layout_height="100dp"
-                        android:src="@drawable/chef"/>
-                    <TextView
-                        android:id="@+id/name"
-                        android:visibility="gone"
-                        android:layout_marginStart="20dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:layout_margin="10dp"
-                        android:text="Chef: Toshihisa Shoji"
-                        />
-                </LinearLayout>
+                    android:text="@string/our_food"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:id="@+id/details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/there_are_3_basic_things_that_s_we_always_keep_in_mind_while_doing_our_business_the_safety_and_freshness_of_the_ingredients_the_environment_that_we_produce_the_food_in_and_not_the_last_the_quality_of_the_final_product_our_mission_is_to_give_you_the_chance_to_discover_a_bit_of_the_asian_culture_through_the_closest_version_of_the_japanese_cuisine_to_achieve_our_goals_those_3_aspects_must_be_always_fulfilled_keeping_the_highest_level_of_hygiene_possible_our_foods_are_conceived_to_reach_the_best_nutritional_value_for_a_healthy_and_strong_body_the_cuisines_prepared_by_our_japanese_chef_s_manage_to_embrace_the_image_flavors_and_style_of_the_original_foods_in_japan_so_please_explore_and_enjoy_the_real_taste_of_the_japanese_foods"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:textSize="14dp"
+                    />
+                <ImageView
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/image"
+                    android:layout_width="70dp"
+                    android:visibility="gone"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chef"/>
+                <TextView
+                    android:id="@+id/name"
+                    android:visibility="gone"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_margin="10dp"
+                    android:text="Chef: Toshihisa Shoji"
+                    />
+            </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
+    </LinearLayout>
 
     </LinearLayout>
 

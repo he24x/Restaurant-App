@@ -22,7 +22,6 @@
     <string name="reservation">Reservation</string>
     <string name="details">Details</string>
     <string name="title">Title</string>
-    <string name="our_food">Our food</string>
 
     <string-array name="dishes">
         <item>Makisushi Emperor 8 buc \n 480g</item>
